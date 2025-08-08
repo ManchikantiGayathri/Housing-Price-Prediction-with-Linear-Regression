@@ -65,12 +65,25 @@ To run this project on your local machine, follow these steps:
     * `seaborn`
     * `scikit-learn`
 
-You can install these libraries using pip:
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+## Installation
 
-'''
+To run this project locally, you'll need Python and several libraries.
 
+1.  **Create a virtual environment (recommended):**
+    ```bash
+    python -m venv venv
+    # On Windows
+    .\venv\Scripts\activate
+    # On macOS/Linux
+    source venv/bin/activate
+    ```
+
+2.  **Install the required libraries:**
+    ```bash
+    pip install pandas numpy seaborn matplotlib scikit-learn scipy
+    ```
+
+---
 ## 📈 Model Evaluation Metrics
 
 The model's performance is assessed using the following metrics:
